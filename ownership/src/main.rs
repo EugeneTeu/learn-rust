@@ -1,13 +1,12 @@
 fn main() {
     println!("Hello, world!");
-    
-    let x: string = String()::from("Hello");
-    let y = x; 
+
+    let x: String = String::from("Hello");
+    let y = x;
     // x is no longer valid here
-    
+
     let deep = y.clone();
     // copy heap data here
-
 
     // copy trait
     let n1 = 5;
