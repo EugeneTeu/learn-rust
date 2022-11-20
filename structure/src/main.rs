@@ -3,6 +3,12 @@ struct Rectangle {
     height: u32,
 }
 
+enum ipv4 {
+    v1,
+    v2,
+    v3,
+}
+
 impl Rectangle {
     fn area(&self) -> u32 {
         self.width * self.height
@@ -14,6 +20,7 @@ impl Rectangle {
 }
 
 fn main() {
+    let value = ipv4::v1;
     let a = Rectangle {
         width: 10,
         height: 20,
